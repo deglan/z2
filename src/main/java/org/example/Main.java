@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        GenerateToken.generateToken(5);
         Scanner scanner = new Scanner(System.in);
         String token;
         System.out.println(Message.WELCOME.getMessage());
